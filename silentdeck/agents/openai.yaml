@@ -1,0 +1,4 @@
+interface:
+  display_name: "SilentDeck"
+  short_description: "Narrate silent presentation videos"
+  default_prompt: "Use $silentdeck to turn a silent presentation MP4 into a visual timeline, narration script, speech audio, narrated video, and subtitles."

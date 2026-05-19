@@ -1,0 +1,35 @@
+# Local secrets
+.env
+*.env
+!*.env.example
+silentdeck/.env
+
+# Generated media and pipeline outputs
+output/
+outputs/
+dist/
+build/
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.mp3
+*.aac
+
+# Local generation notes and drafts
+silentdeck-skill-spec.md
+*.tmp
+*.bak
+*.log
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
